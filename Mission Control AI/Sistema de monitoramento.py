@@ -4,8 +4,7 @@ from datetime import datetime
 
 # ============================================================
 # Mission Control AI - Sistema de Monitoramento
-# GS2026.1 - Pensamento Computacional e Automação com Python
-# Tema: Soluções em Energias Renováveis e Sustentáveis
+# GS2026.1 - Soluções em Energias Renováveis e Sustentáveis
 # ============================================================
 
 NOME_MISSAO = "Missão control AI"
