@@ -8,7 +8,7 @@ from datetime import datetime
 # Tema: Soluções em Energias Renováveis e Sustentáveis
 # ============================================================
 
-NOME_MISSAO = "Missão Hélio-1"
+NOME_MISSAO = "OrbWork"
 NOME_EQUIPE  = "Solução do multiverso"
 
 # Cores no terminal
