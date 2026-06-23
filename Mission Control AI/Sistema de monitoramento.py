@@ -7,7 +7,7 @@ from datetime import datetime
 # GS2026.1 - Soluções em Energias Renováveis e Sustentáveis
 # ============================================================
 
-NOME_MISSAO = "Missão control AI"
+NOME_MISSAO = "Mission control AI"
 NOME_EQUIPE  = "Solução do multiverso"
 
 # Cores no terminal
