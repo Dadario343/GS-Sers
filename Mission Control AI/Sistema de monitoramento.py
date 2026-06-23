@@ -55,10 +55,10 @@ def limpar_tela():
 
 def cabecalho():
     print(CIANO + BOLD)
-    print("╔══════════════════════════════════════════════════════╗")
-    print("║   MISSION CONTROL — ENERGIA SOLAR ESPACIAL           ║")
-    print("║   GS2026.1 · Pensamento Computacional com Python     ║")
-    print("╚══════════════════════════════════════════════════════╝")
+    print("╔═══════════════════════════════════════════════════════════╗")
+    print("║   MISSION CONTROL — ENERGIA SOLAR ESPACIAL                ║")
+    print("║   GS2026.1 ·Soluções em Energias Renováveis e Sustentáveis║")
+    print("╚═══════════════════════════════════════════════════════════╝")
     print(RESET, end="")
     print(f"  Missão : {NOME_MISSAO}   |   Equipe : {NOME_EQUIPE}")
     print(f"  Data   : {datetime.now().strftime('%d/%m/%Y %H:%M')}")
