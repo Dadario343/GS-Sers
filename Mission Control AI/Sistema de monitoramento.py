@@ -48,7 +48,7 @@ pontos_acumulados   = [0, 0, 0, 0, 0]
 energia_gerada_kwh  = []   # kWh gerado por ciclo (calculado a partir da bateria)
 
 # ============================================================
-# FUNÇÕES AUXILIARES DE INTERFACE
+# Funções de interface
 # ============================================================
 
 def limpar_tela():
@@ -80,7 +80,7 @@ def barra_progresso(valor, maximo=100, tamanho=20):
     return f"[{barra}] {valor:.1f}%"
 
 # ============================================================
-# FUNÇÕES DE ANÁLISE — com contexto de energia renovável
+# Funções de analise
 # ============================================================
 
 def analisar_temperatura(v):
@@ -157,7 +157,7 @@ def classificar_ciclo(pontuacao):
         return CRITICO, "MISSÃO CRÍTICA"
 
 # ============================================================
-# GERAÇÃO DE ALERTAS E RECOMENDAÇÕES
+# Geração de alerta e soluções 
 # ============================================================
 
 def gerar_recomendacao(resultados):
@@ -196,7 +196,7 @@ def gerar_recomendacao(resultados):
             print(VERDE + "  ► Todos os sistemas dentro dos parâmetros. Manter operação normal." + RESET)
 
 # ============================================================
-# ANÁLISES AVANÇADAS
+# Analises avançadas
 # ============================================================
 
 def analisar_tendencia():
@@ -321,7 +321,7 @@ def gerar_relatorio_final():
     print(CIANO + "══════════════════════════════════════════════════════" + RESET)
 
 # ============================================================
-# FUNÇÕES DE MENU
+# Funções do menu
 # ============================================================
 
 def inserir_dados():
@@ -474,7 +474,7 @@ def ver_historico():
         print(f"  {i+1:<4} {h['temperatura']:<8.1f} {com_str:<5} {h['bateria']:<7.1f} {h['oxigenio']:<7.1f} {h['estabilidade']:<7.1f} {ef:<8.1f} {classe}")
 
 # ============================================================
-# MENU PRINCIPAL
+# HUD ou Menu principal
 # ============================================================
 
 def main():
